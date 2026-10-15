@@ -11,7 +11,7 @@ contactForm.addEventListener("submit", async (event) => {
   try {
 
     const response = await fetch(
-      "http://localhost:3000/submit-contact",
+      "https://contact-form-project-ut92.onrender.com/submit-contact",
       {
         method: "POST",
 
